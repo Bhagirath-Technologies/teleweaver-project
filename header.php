@@ -25,7 +25,7 @@
 
   <title>Teleweaver</title>
 
-  <link rel="icon" type="image/png" href="assets/img/fav-icon.svg" />
+  <link rel="icon" type="image/png" href="assets/img/fav_icons_white.svg" />
 </head>
 
 <body>
