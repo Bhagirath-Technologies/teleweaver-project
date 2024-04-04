@@ -6,6 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    hello teleweaver
+    <div id="phpContent"></div>
+    <script>
+        // Function to fetch content from index.php
+        function fetchPhpContent() {
+            fetch('index.php')
+                .then(response => response.text())
+                .then(data => {
+                    // Insert the fetched content into the div
+                    document.getElementById('phpContent').innerHTML = data;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        // Call the function when the page loads
+        window.onload = fetchPhpContent;
+    </script>
 </body>
 </html>
