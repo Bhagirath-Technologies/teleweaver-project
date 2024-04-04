@@ -6145,8 +6145,8 @@ Footer Area CSS
 .copyright-area {
   background-color: var(--bs-light-green);
   margin-top: 70px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .copyright-area p {
@@ -6175,7 +6175,7 @@ Footer Area CSS
   margin-left: 15px;
   position: relative;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
   line-height: initial;
 }
 
